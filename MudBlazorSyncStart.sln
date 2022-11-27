@@ -1,9 +1,10 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31717.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MudBlazorSyncStart", "MudBlazorSyncStart.csproj", "{34C4D70F-DBAC-47D4-9345-4F29764329C4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2F2C51C0-C53D-46A3-98FF-E38A161065F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MudBlazorSyncStart", "src\MudBlazorSyncStart.csproj", "{063F0F07-FE78-439C-914B-42147D1E22F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +12,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{34C4D70F-DBAC-47D4-9345-4F29764329C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34C4D70F-DBAC-47D4-9345-4F29764329C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34C4D70F-DBAC-47D4-9345-4F29764329C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34C4D70F-DBAC-47D4-9345-4F29764329C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063F0F07-FE78-439C-914B-42147D1E22F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063F0F07-FE78-439C-914B-42147D1E22F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063F0F07-FE78-439C-914B-42147D1E22F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063F0F07-FE78-439C-914B-42147D1E22F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{063F0F07-FE78-439C-914B-42147D1E22F4} = {2F2C51C0-C53D-46A3-98FF-E38A161065F7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95C10352-630D-4D42-871B-70CA660A7A8E}
