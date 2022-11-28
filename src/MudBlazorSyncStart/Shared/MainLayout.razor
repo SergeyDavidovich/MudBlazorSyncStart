@@ -13,7 +13,7 @@
                              Icon="@Icons.Filled.BrightnessHigh" Color="@Color.Secondary" Title="Light mode"
                              ToggledIcon="@Icons.Filled.BrightnessLow" ToggledColor="@Color.Secondary" ToggledTitle="Dark mode" />
     </MudAppBar>
-    <MudDrawer @bind-Open="_drawerOpen" Elevation="2" Color="Color.Dark">
+    <MudDrawer @bind-Open="_drawerOpen" Elevation="2">
         <MudDrawerHeader>
             <MudText Typo="Typo.h6">MudBlazorSyncStart</MudText>
         </MudDrawerHeader>
@@ -44,7 +44,10 @@
             {
                 Primary = Colors.Blue.Default,
                 Secondary = Colors.Green.Accent4,
-                AppbarBackground = Colors.Green.Default,
+                AppbarBackground = Colors.Blue.Darken2,
+                DrawerBackground = Colors.Blue.Darken3,
+                DrawerText=Colors.Blue.Lighten5
+               
             },
             PaletteDark = new PaletteDark()
             {
