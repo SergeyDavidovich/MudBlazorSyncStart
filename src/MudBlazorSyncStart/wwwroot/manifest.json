@@ -1,6 +1,6 @@
 {
-  "name": "MudBlazorStart",
-  "short_name": "MudBlazorStart",
+  "name": "MudBlazorSyncStart",
+  "short_name": "MudBlazorSyncStart",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
