@@ -17,6 +17,10 @@
         <MudDrawerHeader>
             <MudText Typo="Typo.h6">MudBlazorSyncStart</MudText>
         </MudDrawerHeader>
+        <MudContainer>
+            <MudImage Src="images/logo.jpg" Elevation="1" Width="210" Class="rounded-lg"/>
+        </MudContainer>
+
         <NavMenu />
     </MudDrawer>
     <MudMainContent>
@@ -28,7 +32,6 @@
 
 @code {
     bool _drawerOpen = true;
-    //private MudTheme _theme = new();
     public bool isDarkMode { get; set; }
 
     private MudTheme Theme = new MudTheme();
@@ -44,10 +47,10 @@
             {
                 Primary = Colors.Blue.Default,
                 Secondary = Colors.Green.Accent4,
-                AppbarBackground = Colors.Blue.Darken2,
-                DrawerBackground = Colors.Blue.Darken3,
-                DrawerText=Colors.Blue.Lighten5
-               
+                AppbarBackground = Colors.Blue.Darken3,
+                DrawerBackground = Colors.Blue.Darken4,
+                DrawerText = Colors.Shades.White
+
             },
             PaletteDark = new PaletteDark()
             {
