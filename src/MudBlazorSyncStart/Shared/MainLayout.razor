@@ -1,6 +1,6 @@
 ﻿@inherits LayoutComponentBase
-
-@inject IThemeProvider provider
+@using MudBlazorSyncStart.AppThemes
+@inject ThemeProvider provider
 
 <MudThemeProvider @bind-IsDarkMode="@isDarkMode" Theme="MyTheme" />
 <MudDialogProvider />
@@ -34,8 +34,7 @@
 @code {
     bool _drawerOpen = true;
     public bool isDarkMode { get; set; }
-
-    private MudTheme? MyTheme;
+    MudTheme? MyTheme;
 
     void DrawerToggle()
     {
