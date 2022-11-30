@@ -1,5 +1,7 @@
 ﻿@inherits LayoutComponentBase
 
+@inject IThemeProvider provider
+
 <MudThemeProvider @bind-IsDarkMode="@isDarkMode" Theme="MyTheme" />
 <MudDialogProvider />
 <MudSnackbarProvider />
@@ -33,32 +35,15 @@
     bool _drawerOpen = true;
     public bool isDarkMode { get; set; }
 
-    private MudTheme Theme = new MudTheme();
+    private MudTheme? MyTheme;
 
     void DrawerToggle()
     {
         _drawerOpen = !_drawerOpen;
     }
 
-    MudTheme MyTheme = new MudTheme()
-        {
-            Palette = new Palette()
-            {
-                Primary = Colors.Blue.Default,
-                Secondary = Colors.Green.Accent4,
-                AppbarBackground = Colors.BlueGrey.Lighten1,
-                DrawerBackground = Colors.BlueGrey.Darken1,
-                DrawerText = Colors.Shades.White,
-            },
-            PaletteDark = new PaletteDark()
-            {
-                Primary = Colors.Blue.Lighten1,
-            },
-
-            LayoutProperties = new LayoutProperties()
-            {
-                DrawerWidthLeft = "260px",
-                DrawerWidthRight = "300px"
-            }
-        };
+    protected override void OnInitialized()
+    {
+        MyTheme = provider.FirstTheme;
+    }
 }
