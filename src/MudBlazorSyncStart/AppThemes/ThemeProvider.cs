@@ -28,7 +28,7 @@ namespace MudBlazorSyncStart.AppThemes
                         AppbarText = Colors.Shades.White,
                         DrawerBackground = Colors.DeepPurple.Lighten1,
                         DrawerText = Colors.Shades.White,
-                        
+                        BackgroundGrey= Colors.Green.Accent4,
                     },
                     PaletteDark = new PaletteDark()
                     {
