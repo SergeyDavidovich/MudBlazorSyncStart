@@ -1,20 +1,20 @@
 ﻿@page "/carousel"
-<h3>Component</h3>
 
-<MudCarousel Class="mud-width-full" Style="height:400px;" ShowArrows="@arrows" ShowBullets="@bullets" EnableSwipeGesture="@enableSwipeGesture" AutoCycle="@autocycle" TData="object">
-    <MudCarouselItem Transition="transition" Color="@Color.Primary">
-        <div class="d-flex" style="height:100%">
-            <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Size="@Size.Large" />
+<MudCarousel Class="mud-width-full" Style="height:800px;" ShowArrows="@arrows" ShowBullets="@bullets" EnableSwipeGesture="@enableSwipeGesture"
+    AutoCycle="@autocycle" TData="object">
+    <MudCarouselItem Transition="transition" Color="@Color.Transparent">
+        <div class="d-flex;" style="height:100%">
+            <MudImage Src="/images/image1.jpg" />
         </div>
     </MudCarouselItem>
-    <MudCarouselItem Transition="transition" Color="@Color.Secondary">
+    <MudCarouselItem Transition="transition" Color="@Color.Transparent">
         <div class="d-flex" style="height:100%">
-            <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Size="@Size.Large" />
+            <MudImage Src="/images/image2.jpg"/>
         </div>
     </MudCarouselItem>
-    <MudCarouselItem Transition="transition">
+    <MudCarouselItem Transition="transition" Color="@Color.Transparent">
         <div class="d-flex" style="height:100%">
-            <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Color="@Color.Primary" Size="@Size.Large" />
+            <MudImage Src="/images/image3.jpg" />
         </div>
     </MudCarouselItem>
 </MudCarousel>
