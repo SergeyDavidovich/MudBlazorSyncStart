@@ -1,15 +1,15 @@
 ﻿@page "/carousel"
 
-<MudCarousel Class="mud-width-full" Style="height:600px;" ShowArrows="@arrows" ShowBullets="@bullets" EnableSwipeGesture="@enableSwipeGesture"
+<MudCarousel Class="mud-width-full" Style="height:400px;" ShowArrows="@arrows" ShowBullets="@bullets" EnableSwipeGesture="@enableSwipeGesture"
     AutoCycle="@autocycle" TData="object">
-    <MudCarouselItem Transition="transition" Color="@Color.Transparent">
+    <MudCarouselItem Transition="transition" Color="@Color.Transparent" >
         <div class="d-flex;" style="height:100%">
             <MudImage Src="images/image1.jpg" />
         </div>
     </MudCarouselItem>
     <MudCarouselItem Transition="transition" Color="@Color.Transparent">
         <div class="d-flex" style="height:100%">
-            <MudImage Src="images/image2.jpg"/>
+            <MudImage Src="images/image2.jpg" ObjectFit="ObjectFit.Fill"/>
         </div>
     </MudCarouselItem>
     <MudCarouselItem Transition="transition" Color="@Color.Transparent">
