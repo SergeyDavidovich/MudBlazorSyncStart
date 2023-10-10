@@ -6,15 +6,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2F2C51C0-C53
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MudBlazorSyncStart", "src\MudBlazorSyncStart\MudBlazorSyncStart.csproj", "{F158A9E3-69AC-4EC6-9985-3BAE258A59A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudBlazorSyncStart.Application", "src\MudBlazorSyncStart.Application\MudBlazorSyncStart.Application.csproj", "{3BA9FC28-5660-45B7-BE62-BC2A51F08909}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MudBlazorSyncStart.Application", "src\MudBlazorSyncStart.Application\MudBlazorSyncStart.Application.csproj", "{3BA9FC28-5660-45B7-BE62-BC2A51F08909}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudBlazorSyncStart.Application.Contracts", "src\MudBlazorSyncStart.Application.Contracts\MudBlazorSyncStart.Application.Contracts.csproj", "{5E3E8FF0-FB1B-416B-BB39-2F1BC2166527}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MudBlazorSyncStart.Application.Contracts", "src\MudBlazorSyncStart.Application.Contracts\MudBlazorSyncStart.Application.Contracts.csproj", "{5E3E8FF0-FB1B-416B-BB39-2F1BC2166527}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudBlazorSyncStart.Domain", "src\MudBlazorSyncStart.Domain\MudBlazorSyncStart.Domain.csproj", "{0042CC40-9AEE-4B65-9C18-B9C15CF8B478}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MudBlazorSyncStart.Domain", "src\MudBlazorSyncStart.Domain\MudBlazorSyncStart.Domain.csproj", "{0042CC40-9AEE-4B65-9C18-B9C15CF8B478}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudBlazorSyncStart.Domain.Shared", "src\MudBlazorSyncStart.Domain.Shared\MudBlazorSyncStart.Domain.Shared.csproj", "{84F71043-864E-4A6A-9A68-832628321955}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MudBlazorSyncStart.Domain.Shared", "src\MudBlazorSyncStart.Domain.Shared\MudBlazorSyncStart.Domain.Shared.csproj", "{84F71043-864E-4A6A-9A68-832628321955}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudBlazorSyncStart.IndexedDbStorage", "src\MudBlazorSyncStart.IndexedDbStorage\MudBlazorSyncStart.IndexedDbStorage.csproj", "{892C4572-B310-4DCD-9553-B0CE47BA33F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MudBlazorSyncStart.IndexedDbStorage", "src\MudBlazorSyncStart.IndexedDbStorage\MudBlazorSyncStart.IndexedDbStorage.csproj", "{892C4572-B310-4DCD-9553-B0CE47BA33F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{83254034-08E3-4C0A-B056-0291CF772D7D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
